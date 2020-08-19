@@ -9,6 +9,6 @@ public class HealthController {
     @GetMapping("/")
     public String health()
     {
-       return "success test 100";
+       return "success controller from Cassandra";
     }
 }
