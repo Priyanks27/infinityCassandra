@@ -11,4 +11,10 @@ public class HealthController {
     {
        return "success controller from Cassandra";
     }
+
+    @GetMapping("/health")
+    public String healthCheck()
+    {
+        return "success";
+    }
 }
